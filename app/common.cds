@@ -10,7 +10,7 @@ using riskmanagement as rm from '../db/schema';
    miti @title : 'Mitigation';
    impact @title : 'Impact';
    //### BEGIN OF INSERT
-   bp @title : 'Business Partner';
+   bp @title : 'Business Partners';
    //### END OF INSERT
    criticality @title : 'Criticality';
  }
@@ -32,7 +32,7 @@ using riskmanagement as rm from '../db/schema';
      Common : {Text : LastName}
    );
    LastName @title : 'Last Name';
-   FirstName @title : 'First Name';
+   FirstName @title : 'First Name';   
  }
  //### END OF INSERT
 
